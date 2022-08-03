@@ -1,17 +1,31 @@
+* {
+    --color1: #f4f4f4;
+    --color2: gold;
+    --color3: black;
+
+}
+
 body {
-    background-color: black;
+    background-color: var(--color3);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Space Mono', monospace;
     font-size: 2rem;
-    color: white;
+    color: var(--color1);
 }
 
+h1 {
+    color: var(--color2);
+}
 
 img {
-    width: 500px;
-    height: 230px;
+    width: 3000px;
+    height: 100px;
     padding: 50px;
+}
+
+.emphasis {
+    font-style: italic;
 }
