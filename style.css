@@ -1,31 +1,30 @@
 * {
-    --color1: #f4f4f4;
-    --color2: gold;
-    --color3: black;
-
+  --color1: #f4f4f4;
+  --color2: gold;
+  --color3: black;
 }
 
 body {
-    background-color: var(--color3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Space Mono', monospace;
-    font-size: 2rem;
-    color: var(--color1);
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  color: var(--color1);
 }
 
 h1 {
-    color: var(--color2);
+  color: var(--color2);
 }
 
 img {
-    width: 3000px;
-    height: 100px;
-    padding: 50px;
+  width: 3000px;
+  height: 100px;
+  padding: 50px;
 }
 
 .emphasis {
-    font-style: italic;
+  font-style: italic;
 }
